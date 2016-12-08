@@ -16,4 +16,4 @@ title: 設定Export的權限
 {% highlight js %}
 this.is_action_enabled('edit') && { label: _t("Export"), callback: this.on_sidebar_export },
 {% endhighlight %}
-新增加的部分表示只有使用者有修改權限的時候才可以做資料匯出，也而已改為如delte等權限
+新增加的部分表示只有使用者有修改權限的時候才可以做資料匯出，也可以改為如delte等權限
