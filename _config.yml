@@ -4,10 +4,10 @@
 permalink:           pretty
 
 # Setup
-title:               Lanyon
-tagline:             'A Jekyll theme'
-description:         'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:                 http://lanyon.getpoole.com
+title:               MyOdoo.cc
+tagline:             'Odoo Implementation Log'
+description:         'Odoo實施經驗分享'
+url:                 http://www.myodoo.cc
 baseurl:             ''
 gems:                [jekyll-paginate]
 paginate:            5
@@ -15,9 +15,9 @@ paginate_path: 		 "page:num"
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:              Paul Lu
+  url:               http://blog.retailscm.com
+  email:             luss613@gmail.com
 
 # Custom vars
 version:             1.0.0
