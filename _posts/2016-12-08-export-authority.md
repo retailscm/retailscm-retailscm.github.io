@@ -5,7 +5,7 @@ title: 設定Export的權限
 
 這邊文章原始資料來源於[hitechnologia的一篇分享](http://www.hitechnologia.com/forum/odoo-forum-1/question/odoo-openerp-how-to-hide-export-option-more-export-in-odoo-for-single-user-or-all-users-315)，雖然原始版本是對Odoo8所來寫的，但是這個思路卻可以應用在Odoo10上面。
 
-### 修改Odoo10來實現讓Data匯出也在權限控制範圍呢
+### 修改Odoo10來實現讓Data匯出也在權限控制範圍內
 
 * 修改addons下的web模組，找到static/src/js/views/下的list_view.js
 * 修改288行
