@@ -12,9 +12,9 @@ S3是Amazon比較便宜的存儲方案，我們有一些備份或者是上傳檔
 * sudo apt-get install s3fs
 * 將證書密碼來產出到密碼文件中
 {% highlight js %}
-echo MYIDENTITY:MYCREDENTIAL > /etc/passwd-s3fs
-chmod 600 passwd-s3fs
-sudo mv passwd-s3fs /etc/passwd-s3fs
+echo MYIDENTITY:MYCREDENTIAL > ~/passwd-s3fs
+chmod 600 ~/passwd-s3fs
+sudo mv ~/passwd-s3fs /etc/passwd-s3fs
 {% endhighlight %}
 * 產生好需要的Folder
 {% highlight js %}
