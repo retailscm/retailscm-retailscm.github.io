@@ -5,7 +5,7 @@ title: 更換Server后，用QWEB產生出來的PDF中文字及圖片大小有差
 
 最近執行了Odoo8的Server遷移，從Azure遷移到了Amazon，但是發現遷移后產出的PDF字體都變大，造成原本的版面被提早翻頁，使用者抱怨這樣會浪費紙張。
 
-### Odoo QWEB產出的PDF尺寸問題
+### Odoo的QWEB產出的PDF尺寸問題
 
 * 首先檢查了wqy-microhei的字形文件，確認兩台Server的版本及文件大小完全一致
 * 再來檢查Odoo中的系統設定，確認使用的是相同字體（其實將資料庫匯出匯入，這裡應該是不會有差異的）
