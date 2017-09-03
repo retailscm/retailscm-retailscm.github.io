@@ -4,10 +4,10 @@
 permalink:           pretty
 
 # Setup
-title:               MyOdoo.cc
+title:               Odoo.live
 tagline:             'Odoo Implementation Log'
-description:         'Odoo實施經驗分享'
-url:                 http://www.myodoo.cc
+description:         'Odoo实施经验分享'
+url:                 http://www.odoo.live
 baseurl:             ''
 gems:                [jekyll-paginate]
 paginate:            5
